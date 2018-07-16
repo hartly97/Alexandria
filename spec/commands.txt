@@ -1,0 +1,4 @@
+rspec spec/models/publisher_spec.rb
+
+
+
