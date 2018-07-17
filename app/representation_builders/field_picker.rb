@@ -1,4 +1,3 @@
-# app/representation_builders/field_picker.rb
 class FieldPicker
 
   def initialize(presenter)

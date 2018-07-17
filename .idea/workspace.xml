@@ -2,8 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cfaf475a-5794-4ab6-a511-564d2bf0935d" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/application_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/application_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/books_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/books_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/presenters/base_presenter.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/presenters/base_presenter.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/presenters/book_presenter.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/presenters/book_presenter.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/query_builders/paginator.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/query_builders/paginator.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/representation_builders/field_picker.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/representation_builders/field_picker.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/uploaders/cover_uploader.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/uploaders/cover_uploader.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spec/query_builders/paginator_spec.rb" beforeDir="false" afterPath="$PROJECT_DIR$/spec/query_builders/paginator_spec.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spec/representation_builders/field_picker_spec.rb" beforeDir="false" afterPath="$PROJECT_DIR$/spec/representation_builders/field_picker_spec.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spec/requests/books_spec.rb" beforeDir="false" afterPath="$PROJECT_DIR$/spec/requests/books_spec.rb" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
@@ -20,38 +30,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="books_spec.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spec/requests/books_spec.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
-              <caret line="35" column="7" selection-start-line="35" selection-start-column="7" selection-end-line="35" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="books_controller.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/controllers/books_controller.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="3" selection-start-line="7" selection-end-line="7" selection-end-column="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="seeds.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/db/seeds.rb">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="495">
-              <caret line="33" column="25" selection-start-line="33" selection-start-column="25" selection-end-line="33" selection-end-column="25" />
+              <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="base_presenter.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/presenters/base_presenter.rb">
+      <file leaf-file-name="paginator.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/query_builders/paginator.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="27" column="3" selection-start-line="27" selection-start-column="3" selection-end-line="27" selection-end-column="3" />
+            <state relative-caret-position="258">
+              <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
             </state>
           </provider>
         </entry>
@@ -59,40 +51,35 @@
       <file leaf-file-name="book_presenter.rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/presenters/book_presenter.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+            <state relative-caret-position="225">
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
+      <file leaf-file-name="base_presenter.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/presenters/base_presenter.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="495">
-              <caret line="33" column="3" selection-start-line="33" selection-start-column="3" selection-end-line="33" selection-end-column="3" />
+            <state relative-caret-position="108">
+              <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Gemfile" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Gemfile">
+      <file leaf-file-name="cover_uploader.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/uploaders/cover_uploader.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="14" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
+            <state relative-caret-position="225">
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="paginator.rb" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/query_builders/paginator.rb">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="field_picker.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/representation_builders/field_picker.rb">
+      <file leaf-file-name="paginator_spec.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spec/query_builders/paginator_spec.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="26" column="14" selection-start-line="26" selection-start-column="14" selection-end-line="26" selection-end-column="14" />
+            <state relative-caret-position="573">
+              <caret line="59" column="2" selection-start-line="59" selection-start-column="2" selection-end-line="59" selection-end-column="2" />
             </state>
           </provider>
         </entry>
@@ -100,10 +87,33 @@
       <file leaf-file-name="field_picker_spec.rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spec/representation_builders/field_picker_spec.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="33">
-              <caret line="22" column="4" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="4" />
+            <state relative-caret-position="138">
+              <caret line="29" column="6" lean-forward="true" selection-start-line="29" selection-start-column="6" selection-end-line="29" selection-end-column="6" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="query_builder_error.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/errors/query_builder_error.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="books_spec.rb" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/spec/requests/books_spec.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="41" selection-start-line="3" selection-start-column="41" selection-end-line="3" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="field_picker.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/representation_builders/field_picker.rb">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -130,7 +140,6 @@
         <option value="$PROJECT_DIR$/spec/requests/notes.txt" />
         <option value="$PROJECT_DIR$/app/models/author.rb" />
         <option value="$PROJECT_DIR$/app/models/publisher.rb" />
-        <option value="$PROJECT_DIR$/app/uploaders/cover_uploader.rb" />
         <option value="$PROJECT_DIR$/config/application.rb" />
         <option value="$PROJECT_DIR$/spec/factories/authors.rb" />
         <option value="$PROJECT_DIR$/spec/factories/books.rb" />
@@ -141,15 +150,20 @@
         <option value="$PROJECT_DIR$/spec/spec_helper.rb" />
         <option value="$PROJECT_DIR$/spec/rails_helper.rb" />
         <option value="$PROJECT_DIR$/spec/presenters/base_presenter_spec.rb" />
-        <option value="$PROJECT_DIR$/app/presenters/base_presenter.rb" />
-        <option value="$PROJECT_DIR$/app/presenters/book_presenter.rb" />
-        <option value="$PROJECT_DIR$/spec/representation_builders/field_picker_spec.rb" />
-        <option value="$PROJECT_DIR$/app/representation_builders/field_picker.rb" />
-        <option value="$PROJECT_DIR$/spec/requests/books_spec.rb" />
-        <option value="$PROJECT_DIR$/app/controllers/books_controller.rb" />
         <option value="$PROJECT_DIR$/db/seeds.rb" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/Gemfile" />
+        <option value="$PROJECT_DIR$/app/controllers/books_controller.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/application_controller.rb" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/app/representation_builders/field_picker.rb" />
+        <option value="$PROJECT_DIR$/app/query_builders/paginator.rb" />
+        <option value="$PROJECT_DIR$/app/presenters/book_presenter.rb" />
+        <option value="$PROJECT_DIR$/app/presenters/base_presenter.rb" />
+        <option value="$PROJECT_DIR$/app/uploaders/cover_uploader.rb" />
+        <option value="$PROJECT_DIR$/spec/query_builders/paginator_spec.rb" />
+        <option value="$PROJECT_DIR$/spec/representation_builders/field_picker_spec.rb" />
+        <option value="$PROJECT_DIR$/app/errors/query_builder_error.rb" />
+        <option value="$PROJECT_DIR$/spec/requests/books_spec.rb" />
       </list>
     </option>
   </component>
@@ -163,9 +177,9 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="2195" />
+    <option name="x" value="2308" />
     <option name="y" value="15" />
-    <option name="width" value="1107" />
+    <option name="width" value="994" />
     <option name="height" value="860" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -213,7 +227,31 @@
               <item name="alexandria" type="b2602c69:ProjectViewProjectNode" />
               <item name="alexandria" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="controllers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="alexandria" type="b2602c69:ProjectViewProjectNode" />
+              <item name="alexandria" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="errors" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="alexandria" type="b2602c69:ProjectViewProjectNode" />
+              <item name="alexandria" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="presenters" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="alexandria" type="b2602c69:ProjectViewProjectNode" />
+              <item name="alexandria" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="query_builders" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="alexandria" type="b2602c69:ProjectViewProjectNode" />
+              <item name="alexandria" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="uploaders" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="alexandria" type="b2602c69:ProjectViewProjectNode" />
@@ -229,6 +267,12 @@
               <item name="alexandria" type="b2602c69:ProjectViewProjectNode" />
               <item name="alexandria" type="462c0819:PsiDirectoryNode" />
               <item name="spec" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="alexandria" type="b2602c69:ProjectViewProjectNode" />
+              <item name="alexandria" type="462c0819:PsiDirectoryNode" />
+              <item name="spec" type="462c0819:PsiDirectoryNode" />
+              <item name="query_builders" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="alexandria" type="b2602c69:ProjectViewProjectNode" />
@@ -374,18 +418,18 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1531760491866</updated>
-      <workItem from="1531760493757" duration="10809000" />
+      <workItem from="1531760493757" duration="12184000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10809000" />
+    <option name="totallyTimeSpent" value="12184000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="2195" y="15" width="1107" height="860" extended-state="0" />
+    <frame x="2308" y="15" width="994" height="860" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18215962" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20378152" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
@@ -464,13 +508,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/models/publisher.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -489,13 +526,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/uploaders/cover_uploader.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
         </state>
       </provider>
     </entry>
@@ -583,59 +613,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/presenters/base_presenter.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="3" selection-start-line="27" selection-start-column="3" selection-end-line="27" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/presenters/book_presenter.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spec/representation_builders/field_picker_spec.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="33">
-          <caret line="22" column="4" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/representation_builders/field_picker.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="14" selection-start-line="26" selection-start-column="14" selection-end-line="26" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spec/requests/books_spec.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="35" column="7" selection-start-line="35" selection-start-column="7" selection-end-line="35" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/db/seeds.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="495">
           <caret line="33" column="25" selection-start-line="33" selection-start-column="25" selection-end-line="33" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/books_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="3" selection-start-line="7" selection-end-line="7" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="33" column="3" selection-start-line="33" selection-start-column="3" selection-end-line="33" selection-end-column="3" />
         </state>
       </provider>
     </entry>
@@ -646,8 +627,85 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/query_builders/paginator.rb">
+    <entry file="file://$PROJECT_DIR$/app/controllers/books_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="3" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="35" lean-forward="true" selection-start-line="22" selection-start-column="35" selection-end-line="22" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/representation_builders/field_picker.rb">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/query_builders/paginator.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="258">
+          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/presenters/book_presenter.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/presenters/base_presenter.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/uploaders/cover_uploader.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/query_builders/paginator_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="573">
+          <caret line="59" column="2" selection-start-line="59" selection-start-column="2" selection-end-line="59" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/representation_builders/field_picker_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="29" column="6" lean-forward="true" selection-start-line="29" selection-start-column="6" selection-end-line="29" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/errors/query_builder_error.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/requests/books_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="41" selection-start-line="3" selection-start-column="41" selection-end-line="3" selection-end-column="41" />
+        </state>
+      </provider>
     </entry>
   </component>
   <component name="masterDetails">
