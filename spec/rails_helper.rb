@@ -50,8 +50,8 @@ RSpec.configure do |config|
   config.use_transactional_fixtures = true
   config.infer_spec_type_from_file_location!
 
-  # Load Factory Girl methods
-  config.include FactoryGirl::Syntax::Methods
+  # Load Factory Bot methods
+  config.include FactoryBot::Syntax::Methods
 
   # Configure Database Cleaner
   config.before(:suite) do
