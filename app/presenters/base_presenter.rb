@@ -33,4 +33,16 @@ class BasePresenter
     @data
   end
 
+  def build(actions)
+    actions.each { |action| send(action) }
+    self
+  end
+
+  def fields
+    FieldPicker.new(self).pick
+  end
+
+  def embeds
+    EmbedPicker.new(self).embed
+  end
 end
