@@ -8,20 +8,20 @@ class ApplicationController < ActionController::API
 
   def builder_error(error)
     render status: 400, json: {
-        error: {
-            type: error.class,
-            message: error.message,
-            invalid_params: error.invalid_params
-        }
+      error: {
+        type: error.class,
+        message: error.message,
+        invalid_params: error.invalid_params
+      }
     }
   end
 
   def unprocessable_entity!(resource)
     render status: :unprocessable_entity, json: {
-        error: {
-            message: "Invalid parameters for resource #{resource.class}.",
-            invalid_params: resource.errors
-        }
+      error: {
+        message: "Invalid parameters for resource #{resource.class}.",
+        invalid_params: resource.errors
+      }
     }
   end
 
@@ -35,9 +35,9 @@ class ApplicationController < ActionController::API
 
   def serialize(data)
     {
-        json: Alexandria::Serializer.new(data: data,
-                                         params: params,
-                                         actions: [:fields, :embeds]).to_json
+      json: Alexandria::Serializer.new(data: data,
+                                       params: params,
+                                       actions: [:fields, :embeds]).to_json
     }
   end
 

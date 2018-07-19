@@ -66,8 +66,8 @@ RSpec.describe "Books", type: :request do
         it 'gets the books with their authors embedded' do
           json_body['data'].each do |book|
             expect(book['author'].keys).to eq(
-                                               ['id', 'given_name', 'family_name', 'created_at', 'updated_at']
-                                           )
+              ['id', 'given_name', 'family_name', 'created_at', 'updated_at']
+            )
           end
         end
       end
@@ -105,8 +105,8 @@ RSpec.describe "Books", type: :request do
 
         it 'receives a response with the Link header' do
           expect(response.headers['Link'].split(', ').first).to eq(
-                                                                    '<http://www.example.com/api/books?page=2&per=2>; rel="next"'
-                                                                )
+            '<http://www.example.com/api/books?page=2&per=2>; rel="next"'
+          )
         end
       end
 
@@ -239,8 +239,8 @@ RSpec.describe "Books", type: :request do
 
       it 'gets the new resource location in the Location header' do
         expect(response.headers['Location']).to eq(
-                                                    "http://www.example.com/api/books/#{Book.first.id}"
-                                                )
+          "http://www.example.com/api/books/#{Book.first.id}"
+        )
       end
     end
 
@@ -253,16 +253,18 @@ RSpec.describe "Books", type: :request do
 
       it 'receives an error details' do
         expect(json_body['error']['invalid_params']).to eq(
-                                                            { "title"=>["can't be blank"], "author"=>["can't be blank"] }
-                                                        )
+          { "title"=>["can't be blank"], "author"=>["can't be blank"] }
+        )
       end
 
       it 'does not add a record in the database' do
         expect(Book.count).to eq 0
       end
-    end # context 'with invalid parameters'
+    end
+    # context 'with invalid parameters'
 
-  end # describe 'POST /api/books'
+  end
+  # describe 'POST /api/books'
 
   describe 'PATCH /api/books/:id' do
     before { patch "/api/books/#{rails_tutorial.id}", params: { data: params } }
@@ -276,8 +278,8 @@ RSpec.describe "Books", type: :request do
 
       it 'receives the updated resource' do
         expect(json_body['data']['title']).to eq(
-                                                  'The Ruby on Rails Tutorial'
-                                              )
+          'The Ruby on Rails Tutorial'
+        )
       end
       it 'updates the record in the database' do
         expect(Book.first.title).to eq 'The Ruby on Rails Tutorial'
@@ -293,8 +295,8 @@ RSpec.describe "Books", type: :request do
 
       it 'receives an error details' do
         expect(json_body['error']['invalid_params']).to eq(
-                                                            { "title"=>["can't be blank"] }
-                                                        )
+          { "title"=>["can't be blank"] }
+        )
       end
 
       it 'does not add a record in the database' do
@@ -322,7 +324,6 @@ RSpec.describe "Books", type: :request do
         expect(response.status).to eq 404
       end
     end
-  end
-  # describe 'DELETE /api/books/:id' end
+  end # describe 'DELETE /api/books/:id' end
 
 end
