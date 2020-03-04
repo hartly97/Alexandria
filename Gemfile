@@ -7,7 +7,7 @@ ruby '2.4.0'
 gem 'rails', '~> 5.2.0'
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3'
-gem 'puma', '~> 3.0'
+gem 'puma', '~> 3.12'
 gem 'bootsnap', '>= 1.1.0', require: false
 
 # We add those two gems
